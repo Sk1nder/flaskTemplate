@@ -1,0 +1,18 @@
+# Flask Project Starter Template
+
+## Description
+This project serves as a basic template for Flask applications. It allows you to quickly start working on a new application with a predefined folder structure, files, and essential dependencies.
+
+## Directory Structure
+
+flaskTemplate/
+├── .gitignore          # Ignored files and directories
+├── .env                # Environment variables (not versioned)
+├── requirements.txt    # Project dependencies
+├── app.py              # Main Flask application file
+├── routes/             # Application routes module
+│   ├── __init__.py
+│   └── routes.py
+├── templates/          # HTML templates
+│   └── index.html
+└── __pycache__/        # Python temporary files (ignored)
